@@ -40,8 +40,9 @@ header{
 }
 
 .card{
-    width: calc(100% / 3);
-    height: 750px;
+    width: calc((100% - 30px) / 3);
+    padding-bottom: 50px;
+    position: relative;
 }
 
 .model-first-img{
@@ -57,6 +58,74 @@ header{
 
 .img-card{
     position: relative;
+}
+
+.center-card{
+    margin: 0 15px;
+}
+
+.sconto{
+    height: 25px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    z-index: 2;
+    text-align: center;
+    line-height: 25px;
+}
+
+.sostenibilita{
+    width: 100px;
+    background-color: green; 
+    left: 55px;
+    
+}
+
+.sconto, .sostenibilita{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    z-index: 2;
+    color: white;
+}
+
+.like{
+    height: 50px;
+    width: 50px;
+    font-size: 1.8em;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    z-index: 2;
+    line-height: 50px;
+    text-align: center;
+    border: none;
+    background-color: white;
+}
+
+.gray{
+    color: grey;
+}
+
+.new-price{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.article{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+button.like:hover{
+    color: red;
 }
 
 div.img-card:hover .model-first-img{
