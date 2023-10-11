@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    color: white;
+}
+
+.header-sec{
+    height: 50px;
+    background-color: orange;
+    width: 100%;
+    
+}
+
+.nav-bar{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo-img{
+    height: 25px;
+}
+
+.main-container{
+    width: 70%;
+    height: 1500px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.card{
+    width: calc(100% / 3);
+    height: 750px;
+}
+
+.model-img{
+    width: 100%;
+}
