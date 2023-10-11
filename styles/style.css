@@ -8,16 +8,22 @@ header{
     color: white;
 }
 
+footer{
+    color: white;
+    background-color: #1A1A1A;
+}
+
 .header-sec{
-    height: 50px;
-    background-color: orange;
+    height: 70px;
+    background-color: #FF6801;
     width: 100%;
+    font-weight: 500;
     
 }
 
 .nav-bar{
     width: 70%;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +36,6 @@ header{
 
 .main-container{
     width: 70%;
-    height: 1500px;
     padding: 50px 0;
     margin: 0 auto;
     display: flex;
@@ -107,6 +112,11 @@ header{
     background-color: white;
 }
 
+.last-card{
+    bottom:40px;
+    left: 0px;
+}
+
 .gray{
     color: grey;
 }
@@ -123,6 +133,27 @@ header{
     text-transform: uppercase;
     font-weight: 500;
 }
+
+.footer-nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem 0;
+    line-height: 1.5em;
+}
+
+.big-font{
+    font-size: 1.2em;
+}
+
+.info{
+    padding-right: 2px;
+    font-size: .8em;
+}
+
+
+
 
 button.like:hover{
     color: red;
