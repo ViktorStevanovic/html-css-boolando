@@ -32,6 +32,7 @@ header{
     width: 70%;
     height: 1500px;
     padding: 50px 0;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -43,6 +44,21 @@ header{
     height: 750px;
 }
 
-.model-img{
+.model-first-img{
     width: 100%;
+    position: absolute;
+    z-index: 1;
+    }
+
+.model-second-img{
+    width: 100%;
+    position: relative;
+}
+
+.img-card{
+    position: relative;
+}
+
+div.img-card:hover .model-first-img{
+    display: none;
 }
